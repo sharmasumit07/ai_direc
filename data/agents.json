@@ -1,0 +1,352 @@
+[
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "Advanced conversational AI that can help with writing, coding, analysis, and creative tasks.",
+    "categories": ["ai-assistants", "productivity", "writing"],
+    "usageInstructions": "1. Visit the ChatGPT interface\n2. Type your question or request\n3. Review the AI-generated response\n4. Continue the conversation for clarification or follow-up questions",
+    "setupGuide": "1. Sign up at openai.com\n2. Choose your subscription plan\n3. Access ChatGPT through the web interface or mobile app\n4. Start chatting immediately",
+    "externalLink": "https://chat.openai.com",
+    "grokRecommendations": "Grok: Excellent for general tasks, but consider Claude for creative writing and GPT-4 for complex reasoning. Free tier has usage limits."
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "description": "Anthropic's AI assistant focused on helpful, harmless, and honest conversations.",
+    "categories": ["ai-assistants", "writing", "analysis"],
+    "usageInstructions": "1. Access Claude through the web interface\n2. Start a conversation with your question\n3. Use follow-up prompts to refine responses\n4. Export conversations for future reference",
+    "setupGuide": "1. Visit claude.ai\n2. Sign up with email or Google account\n3. Verify your account\n4. Start using Claude immediately",
+    "externalLink": "https://claude.ai",
+    "grokRecommendations": "Grok: Superior for nuanced conversations and creative tasks. More safety-focused than alternatives. Great for research and analysis."
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "AI art generator that creates stunning images from text descriptions.",
+    "categories": ["images", "art", "design"],
+    "usageInstructions": "1. Join the Midjourney Discord server\n2. Use /imagine command followed by your prompt\n3. Wait for the AI to generate 4 image variations\n4. Upscale or create variations of your favorite results",
+    "setupGuide": "1. Create a Discord account\n2. Join the Midjourney Discord server\n3. Subscribe to a Midjourney plan\n4. Start creating in any #general channel",
+    "externalLink": "https://midjourney.com",
+    "grokRecommendations": "Grok: Best-in-class for artistic images. Subscription required. Consider DALL-E for simpler needs or Stable Diffusion for open-source alternative."
+  },
+  {
+    "name": "DALL-E 3",
+    "slug": "dalle-3",
+    "description": "OpenAI's latest image generation model with improved prompt adherence and quality.",
+    "categories": ["images", "art", "design"],
+    "usageInstructions": "1. Access through ChatGPT Plus or API\n2. Describe the image you want to create\n3. Review the generated images\n4. Request modifications or variations as needed",
+    "setupGuide": "1. Sign up for ChatGPT Plus or OpenAI API\n2. Access DALL-E through ChatGPT interface\n3. Use natural language to describe images\n4. Download or share your creations",
+    "externalLink": "https://openai.com/dall-e-3",
+    "grokRecommendations": "Grok: Excellent for realistic images and prompt following. Integrated with ChatGPT for convenience. More expensive than alternatives but higher quality."
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "description": "AI-powered writing assistant integrated into Notion workspace for enhanced productivity.",
+    "categories": ["productivity", "writing", "organization"],
+    "usageInstructions": "1. Open any Notion page\n2. Type '/ai' or press spacebar after text\n3. Choose from writing, editing, or brainstorming options\n4. Review and accept AI suggestions",
+    "setupGuide": "1. Sign up for Notion account\n2. Upgrade to a plan that includes AI features\n3. Enable Notion AI in workspace settings\n4. Start using AI commands in any page",
+    "externalLink": "https://notion.so",
+    "grokRecommendations": "Grok: Perfect for teams already using Notion. Seamless integration but limited compared to standalone AI tools. Great for collaborative writing."
+  },
+  {
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "description": "AI pair programmer that suggests code completions and entire functions as you type.",
+    "categories": ["development", "productivity", "ai-assistants"],
+    "usageInstructions": "1. Install Copilot extension in your IDE\n2. Start typing code\n3. Accept suggestions with Tab key\n4. Use Ctrl+Enter for alternative suggestions",
+    "setupGuide": "1. Sign up for GitHub Copilot subscription\n2. Install extension in VS Code, JetBrains, or other supported IDEs\n3. Sign in with GitHub account\n4. Enable Copilot in extension settings",
+    "externalLink": "https://github.com/features/copilot",
+    "grokRecommendations": "Grok: Essential for developers. Huge productivity boost. Consider Cursor or CodeWhisperer as alternatives. Individual and business plans available."
+  },
+  {
+    "name": "Jasper AI",
+    "slug": "jasper-ai",
+    "description": "AI writing assistant specialized in marketing copy, blog posts, and business content.",
+    "categories": ["writing", "marketing", "productivity"],
+    "usageInstructions": "1. Choose a content template\n2. Fill in the required inputs\n3. Generate multiple variations\n4. Edit and refine the output",
+    "setupGuide": "1. Sign up at jasper.ai\n2. Choose your subscription plan\n3. Complete the onboarding workflow\n4. Explore templates and start writing",
+    "externalLink": "https://jasper.ai",
+    "grokRecommendations": "Grok: Strong for marketing content. More expensive than general AI tools but offers specialized templates. Consider Copy.ai for budget-friendly alternative."
+  },
+  {
+    "name": "Runway ML",
+    "slug": "runway-ml",
+    "description": "AI-powered video editing and generation platform for creators and professionals.",
+    "categories": ["video", "editing", "creative"],
+    "usageInstructions": "1. Upload your video or start with AI generation\n2. Select the editing tool you need\n3. Configure settings and prompts\n4. Process and download your result",
+    "setupGuide": "1. Create account at runwayml.com\n2. Choose a subscription plan\n3. Upload content or start with AI generation\n4. Explore the various AI tools available",
+    "externalLink": "https://runwayml.com",
+    "grokRecommendations": "Grok: Leading platform for AI video editing. Expensive but professional quality. Consider Pictory or InVideo for simpler needs."
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "description": "Open-source AI image generator that runs locally or in the cloud.",
+    "categories": ["images", "art", "open-source"],
+    "usageInstructions": "1. Set up Stable Diffusion locally or use web interface\n2. Enter your text prompt\n3. Adjust parameters like steps, guidance scale\n4. Generate and iterate on results",
+    "setupGuide": "1. Install Python and dependencies\n2. Download Stable Diffusion model\n3. Set up AUTOMATIC1111 web UI or use cloud services\n4. Configure settings for your hardware",
+    "externalLink": "https://stability.ai",
+    "grokRecommendations": "Grok: Best free option for image generation. Requires technical setup but very flexible. Consider ComfyUI for advanced workflows."
+  },
+  {
+    "name": "Perplexity AI",
+    "slug": "perplexity-ai",
+    "description": "AI-powered search engine that provides cited answers and research assistance.",
+    "categories": ["research", "ai-assistants", "productivity"],
+    "usageInstructions": "1. Enter your research question\n2. Review AI-generated answer with sources\n3. Follow up with related questions\n4. Save important findings to collections",
+    "setupGuide": "1. Visit perplexity.ai\n2. Sign up for free account\n3. Optionally upgrade to Pro for advanced features\n4. Start asking research questions",
+    "externalLink": "https://perplexity.ai",
+    "grokRecommendations": "Grok: Excellent for research with source citations. More reliable than ChatGPT for factual information. Pro version offers GPT-4 and Claude access."
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "description": "AI video generation platform that creates professional videos with AI avatars.",
+    "categories": ["video", "presentation", "marketing"],
+    "usageInstructions": "1. Choose an AI avatar\n2. Write or paste your script\n3. Select background and styling\n4. Generate and download your video",
+    "setupGuide": "1. Sign up at synthesia.io\n2. Choose your subscription plan\n3. Create your first video project\n4. Explore avatar and template options",
+    "externalLink": "https://synthesia.io",
+    "grokRecommendations": "Grok: Professional quality AI videos. Expensive but saves significant production time. Consider HeyGen for more affordable option."
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "description": "AI writing tool for marketing copy, social media content, and business communications.",
+    "categories": ["writing", "marketing", "social-media"],
+    "usageInstructions": "1. Select a writing template\n2. Provide context and key details\n3. Generate multiple copy variations\n4. Edit and customize the output",
+    "setupGuide": "1. Sign up at copy.ai\n2. Complete profile setup\n3. Explore available templates\n4. Start generating content",
+    "externalLink": "https://copy.ai",
+    "grokRecommendations": "Grok: Good for marketing copy at reasonable price. Template-focused approach. Consider Jasper for more advanced features or ChatGPT for general writing."
+  },
+  {
+    "name": "Loom AI",
+    "slug": "loom-ai",
+    "description": "Screen recording tool enhanced with AI for automatic transcripts and video summaries.",
+    "categories": ["video", "productivity", "communication"],
+    "usageInstructions": "1. Install Loom browser extension or desktop app\n2. Choose screen, window, or camera recording\n3. Record your content\n4. AI automatically generates transcripts and summaries",
+    "setupGuide": "1. Create Loom account\n2. Install browser extension or desktop app\n3. Grant necessary permissions\n4. Start recording and sharing videos",
+    "externalLink": "https://loom.com",
+    "grokRecommendations": "Grok: Great for team communication and tutorials. AI features add significant value. Free tier available. Consider CloudApp for simpler needs."
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "description": "AI-powered writing assistant for grammar, spelling, tone, and style improvements.",
+    "categories": ["writing", "productivity", "editing"],
+    "usageInstructions": "1. Install browser extension or use web app\n2. Start writing in any text field\n3. Review AI suggestions for improvements\n4. Accept or dismiss recommendations",
+    "setupGuide": "1. Sign up at grammarly.com\n2. Install browser extension\n3. Create writing goals and preferences\n4. Start writing to see suggestions",
+    "externalLink": "https://grammarly.com",
+    "grokRecommendations": "Grok: Industry standard for writing assistance. Reliable but can be overly prescriptive. Consider ProWritingAid for more detailed analysis."
+  },
+  {
+    "name": "Zapier AI",
+    "slug": "zapier-ai",
+    "description": "Automation platform enhanced with AI to create workflows and connect apps intelligently.",
+    "categories": ["automation", "productivity", "integration"],
+    "usageInstructions": "1. Describe your automation goal\n2. Let AI suggest workflow steps\n3. Connect your apps and services\n4. Test and activate your automation",
+    "setupGuide": "1. Sign up for Zapier account\n2. Connect your frequently used apps\n3. Explore AI automation suggestions\n4. Create your first automated workflow",
+    "externalLink": "https://zapier.com",
+    "grokRecommendations": "Grok: Powerful for business automation. AI makes setup easier for non-technical users. Consider Make.com for more complex workflows."
+  },
+  {
+    "name": "Canva AI",
+    "slug": "canva-ai",
+    "description": "Design platform with AI-powered features for creating graphics, presentations, and marketing materials.",
+    "categories": ["design", "images", "marketing"],
+    "usageInstructions": "1. Choose a design template or start blank\n2. Use AI tools like Magic Write or Background Remover\n3. Customize with your content and branding\n4. Download or share your design",
+    "setupGuide": "1. Create Canva account\n2. Explore template library\n3. Upload your brand assets\n4. Start designing with AI assistance",
+    "externalLink": "https://canva.com",
+    "grokRecommendations": "Grok: User-friendly design tool with solid AI features. Great for non-designers. Consider Adobe Creative Cloud for professional design work."
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI meeting assistant that transcribes conversations and generates meeting summaries.",
+    "categories": ["productivity", "transcription", "meetings"],
+    "usageInstructions": "1. Join your meeting with Otter.ai\n2. Let it automatically transcribe the conversation\n3. Review and edit transcripts\n4. Share summaries with team members",
+    "setupGuide": "1. Sign up at otter.ai\n2. Connect your calendar apps\n3. Install mobile app for on-the-go recording\n4. Configure meeting integration settings",
+    "externalLink": "https://otter.ai",
+    "grokRecommendations": "Grok: Excellent for meeting transcription and note-taking. Accurate speech recognition. Consider Fireflies.ai for more integrations."
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "AI-powered presentation maker that creates beautiful slides from simple text prompts.",
+    "categories": ["presentations", "design", "productivity"],
+    "usageInstructions": "1. Describe your presentation topic\n2. Let AI generate slide structure and content\n3. Customize design and layout\n4. Present directly or export to PowerPoint",
+    "setupGuide": "1. Sign up at gamma.app\n2. Start with AI prompt or template\n3. Customize your presentation theme\n4. Share or present online",
+    "externalLink": "https://gamma.app",
+    "grokRecommendations": "Grok: Revolutionary for quick presentation creation. Great design quality. Consider Beautiful.AI for more templates or Pitch for team collaboration."
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "description": "AI-first code editor that understands your codebase and helps with development.",
+    "categories": ["development", "ai-assistants", "productivity"],
+    "usageInstructions": "1. Open your project in Cursor\n2. Use Ctrl+K for AI commands\n3. Chat with AI about your code\n4. Accept AI suggestions and completions",
+    "setupGuide": "1. Download Cursor from cursor.sh\n2. Import your VS Code settings\n3. Configure AI model preferences\n4. Start coding with AI assistance",
+    "externalLink": "https://cursor.sh",
+    "grokRecommendations": "Grok: Next-generation coding experience. Better context understanding than Copilot. Free tier available. Consider for new projects."
+  },
+  {
+    "name": "AgentGPT",
+    "slug": "agentgpt",
+    "description": "Autonomous AI agent that can break down goals into tasks and execute them independently.",
+    "categories": ["ai-assistants", "automation", "productivity"],
+    "usageInstructions": "1. Define your goal or objective\n2. Let AgentGPT create a task breakdown\n3. Review the autonomous execution plan\n4. Monitor progress and results",
+    "setupGuide": "1. Visit agentgpt.reworkd.ai\n2. Sign up for an account\n3. Configure API keys for extended usage\n4. Start with simple goals",
+    "externalLink": "https://agentgpt.reworkd.ai",
+    "grokRecommendations": "Grok: Interesting autonomous approach. Still experimental. Good for research and planning tasks. Consider AutoGPT for local setup."
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "description": "Platform for running AI models in the cloud, from image generation to language models.",
+    "categories": ["development", "ai-models", "api"],
+    "usageInstructions": "1. Browse available AI models\n2. Test models with the web interface\n3. Integrate via API for production use\n4. Monitor usage and costs",
+    "setupGuide": "1. Sign up at replicate.com\n2. Get your API token\n3. Explore model documentation\n4. Make your first API call",
+    "externalLink": "https://replicate.com",
+    "grokRecommendations": "Grok: Great for developers who need diverse AI models. Pay-per-use pricing. Consider Hugging Face for open-source alternatives."
+  },
+  {
+    "name": "Framer AI",
+    "slug": "framer-ai",
+    "description": "Web design tool with AI that generates websites from text descriptions.",
+    "categories": ["design", "web-development", "no-code"],
+    "usageInstructions": "1. Describe your website idea\n2. Let AI generate initial design\n3. Customize components and styling\n4. Publish your website",
+    "setupGuide": "1. Sign up at framer.com\n2. Start with AI website generation\n3. Learn Framer's design system\n4. Connect custom domain if needed",
+    "externalLink": "https://framer.com",
+    "grokRecommendations": "Grok: Excellent for designers and no-code website creation. Higher learning curve but very powerful. Consider Webflow for more control."
+  },
+  {
+    "name": "Beautiful.AI",
+    "slug": "beautiful-ai",
+    "description": "Presentation software that uses AI to automatically design and format slides.",
+    "categories": ["presentations", "design", "productivity"],
+    "usageInstructions": "1. Choose a presentation template\n2. Add your content to slides\n3. Let AI automatically adjust layout and design\n4. Export or present online",
+    "setupGuide": "1. Sign up at beautiful.ai\n2. Explore template gallery\n3. Create your first presentation\n4. Learn keyboard shortcuts for efficiency",
+    "externalLink": "https://beautiful.ai",
+    "grokRecommendations": "Grok: Good for business presentations with automatic formatting. Less flexibility than PowerPoint but faster creation. Consider Gamma for more AI features."
+  },
+  {
+    "name": "Soundraw",
+    "slug": "soundraw",
+    "description": "AI music generator that creates royalty-free music for videos and projects.",
+    "categories": ["audio", "music", "creative"],
+    "usageInstructions": "1. Select music genre and mood\n2. Set duration and intensity\n3. Generate AI music variations\n4. Download and use in your projects",
+    "setupGuide": "1. Sign up at soundraw.io\n2. Choose your subscription plan\n3. Explore music generation options\n4. Download tracks for your projects",
+    "externalLink": "https://soundraw.io",
+    "grokRecommendations": "Grok: Great for content creators needing background music. Royalty-free licensing. Consider Mubert or AIVA for different styles."
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "description": "AI-powered storytelling tool that creates presentations and documents from prompts.",
+    "categories": ["presentations", "writing", "storytelling"],
+    "usageInstructions": "1. Describe your story or presentation topic\n2. Let AI generate structure and content\n3. Customize design and add media\n4. Share or present online",
+    "setupGuide": "1. Sign up at tome.app\n2. Start with AI prompt or template\n3. Learn editing and collaboration features\n4. Share with your audience",
+    "externalLink": "https://tome.app",
+    "grokRecommendations": "Grok: Unique storytelling approach to presentations. Great for narrative-driven content. Consider for creative projects over business presentations."
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "description": "AI writing platform for creating articles, ads, product descriptions, and marketing content.",
+    "categories": ["writing", "marketing", "productivity"],
+    "usageInstructions": "1. Select content type template\n2. Provide topic and key details\n3. Generate multiple content variations\n4. Edit and optimize for your needs",
+    "setupGuide": "1. Create account at writesonic.com\n2. Choose your subscription plan\n3. Explore content templates\n4. Start generating content",
+    "externalLink": "https://writesonic.com",
+    "grokRecommendations": "Grok: Solid alternative to Jasper with competitive pricing. Good template variety. Consider for budget-conscious marketing teams."
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "description": "Open-source platform hosting thousands of AI models for various tasks and research.",
+    "categories": ["development", "ai-models", "open-source"],
+    "usageInstructions": "1. Browse model hub for specific tasks\n2. Test models in the web interface\n3. Use transformers library for integration\n4. Fine-tune models for your needs",
+    "setupGuide": "1. Create account at huggingface.co\n2. Install transformers library\n3. Explore model documentation\n4. Try models in your code",
+    "externalLink": "https://huggingface.co",
+    "grokRecommendations": "Grok: Essential resource for AI developers. Vast model library. Free to use. Consider for research and development projects."
+  },
+  {
+    "name": "Eleven Labs",
+    "slug": "eleven-labs",
+    "description": "AI voice synthesis platform that creates realistic speech from text with voice cloning.",
+    "categories": ["audio", "voice", "text-to-speech"],
+    "usageInstructions": "1. Enter or upload your text\n2. Choose from available voices or clone your own\n3. Adjust voice settings and emotions\n4. Generate and download audio",
+    "setupGuide": "1. Sign up at elevenlabs.io\n2. Explore voice library\n3. Upload voice samples for cloning (if needed)\n4. Start generating speech",
+    "externalLink": "https://elevenlabs.io",
+    "grokRecommendations": "Grok: Best-in-class voice synthesis quality. Voice cloning feature is impressive but requires ethical consideration. Great for content creators."
+  },
+  {
+    "name": "RemoveBG",
+    "slug": "removebg",
+    "description": "AI tool that automatically removes backgrounds from images with precision.",
+    "categories": ["images", "editing", "productivity"],
+    "usageInstructions": "1. Upload your image\n2. AI automatically detects and removes background\n3. Download the result with transparent background\n4. Use in your design projects",
+    "setupGuide": "1. Visit remove.bg\n2. No account needed for basic use\n3. Sign up for bulk processing\n4. Integrate via API for automation",
+    "externalLink": "https://remove.bg",
+    "grokRecommendations": "Grok: Excellent for quick background removal. Very accurate results. Free tier available. Consider Photoshop AI for more complex editing needs."
+  },
+  {
+    "name": "Undetectable AI",
+    "slug": "undetectable-ai",
+    "description": "AI tool that humanizes AI-generated text to bypass AI detection systems.",
+    "categories": ["writing", "editing", "content"],
+    "usageInstructions": "1. Paste your AI-generated text\n2. Select humanization settings\n3. Process the text through AI humanizer\n4. Review and use the humanized output",
+    "setupGuide": "1. Visit undetectable.ai\n2. Sign up for an account\n3. Test with sample AI text\n4. Subscribe for regular usage",
+    "externalLink": "https://undetectable.ai",
+    "grokRecommendations": "Grok: Useful for content creators but use ethically. Consider the implications of bypassing AI detection. Manual editing often more effective."
+  },
+  {
+    "name": "Runway Gen-2",
+    "slug": "runway-gen-2",
+    "description": "Advanced AI video generation model that creates videos from text prompts or images.",
+    "categories": ["video", "generation", "creative"],
+    "usageInstructions": "1. Write detailed video description\n2. Optionally upload reference image\n3. Configure generation parameters\n4. Generate and refine video clips",
+    "setupGuide": "1. Sign up at runwayml.com\n2. Subscribe to plan with Gen-2 access\n3. Learn effective prompting techniques\n4. Start with simple video concepts",
+    "externalLink": "https://runwayml.com",
+    "grokRecommendations": "Grok: Cutting-edge video generation technology. Expensive but impressive results. Still emerging technology with limitations."
+  },
+  {
+    "name": "Character.AI",
+    "slug": "character-ai",
+    "description": "Platform for creating and chatting with AI characters for entertainment and education.",
+    "categories": ["ai-assistants", "entertainment", "education"],
+    "usageInstructions": "1. Browse existing characters or create new ones\n2. Start a conversation\n3. Develop ongoing relationships with characters\n4. Create your own AI characters",
+    "setupGuide": "1. Visit character.ai\n2. Sign up with Google or email\n3. Explore popular characters\n4. Start chatting or create your own",
+    "externalLink": "https://character.ai",
+    "grokRecommendations": "Grok: Fun for creative interactions and roleplay. Good for education through character-based learning. Consider for entertainment rather than serious work."
+  },
+  {
+    "name": "Topaz Labs AI",
+    "slug": "topaz-labs-ai",
+    "description": "Professional AI-powered photo and video enhancement software for creators.",
+    "categories": ["images", "video", "editing"],
+    "usageInstructions": "1. Install Topaz software (Photo AI, Video AI, etc.)\n2. Import your media files\n3. Select enhancement options\n4. Process and export improved media",
+    "setupGuide": "1. Purchase and download from topazlabs.com\n2. Install the software suite\n3. Activate with your license\n4. Learn the interface and tools",
+    "externalLink": "https://topazlabs.com",
+    "grokRecommendations": "Grok: Professional-grade enhancement tools. Expensive but excellent quality. Essential for photographers and videographers. Consider for serious creative work."
+  },
+  {
+    "name": "MonkeyType AI",
+    "slug": "monkeytype-ai",
+    "description": "AI-enhanced typing practice platform that adapts to your skill level and generates custom exercises.",
+    "categories": ["productivity", "education", "skills"],
+    "usageInstructions": "1. Take initial typing assessment\n2. Practice with AI-generated exercises\n3. Track progress and improvement\n4. Compete in typing challenges",
+    "setupGuide": "1. Visit monkeytype.com\n2. Create account to save progress\n3. Configure typing preferences\n4. Start daily practice routine",
+    "externalLink": "https://monkeytype.com",
+    "grokRecommendations": "Grok: Great for improving typing skills with AI adaptation. Free to use. Consider Typing.com for more structured courses."
+  },
+  {
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "description": "AI voice generator for creating professional voiceovers and narration.",
+    "categories": ["audio", "voice", "content-creation"],
+    "usageInstructions": "1. Enter your script text\n2. Choose from AI voice library\n3. Adjust pace, tone, and emphasis\n4. Generate and download audio",
+    "setupGuide": "1. Sign up at murf.ai\n2. Explore voice options\n3. Test with sample text\n4. Subscribe for commercial use",
+    "externalLink": "https://murf.ai",
+    "grokRecommendations": "Grok: Professional quality voiceovers. Good alternative to Eleven Labs. Consider for business presentations and e-learning content."
+  }
+]
