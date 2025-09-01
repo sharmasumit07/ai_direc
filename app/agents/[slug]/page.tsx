@@ -5,7 +5,6 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { ExternalLink, ArrowLeft, Lightbulb, BookOpen, Settings } from 'lucide-react';
-import ReactMarkdown from 'react-markdown';
 import agentsData from '@/data/agents.json';
 import type { Metadata } from 'next';
 
@@ -17,7 +16,7 @@ interface AgentPageProps {
 
 export async function generateMetadata({ params }: AgentPageProps): Promise<Metadata> {
   const agent = agentsData.find(a => a.slug === params.slug);
-  
+
   if (!agent) {
     return {
       title: 'Agent Not Found',
@@ -32,7 +31,7 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  return agentsData.map((agent) => ({
+  return agentsData.map(agent => ({
     slug: agent.slug,
   }));
 }
@@ -58,12 +57,10 @@ export default function AgentPage({ params }: AgentPageProps) {
 
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">{agent.name}</h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              {agent.description}
-            </p>
-            
+            <p className="text-xl text-muted-foreground leading-relaxed">{agent.description}</p>
+
             <div className="flex flex-wrap gap-2">
-              {agent.categories.map((category) => (
+              {agent.categories.map(category => (
                 <Badge key={category} variant="secondary">
                   {category}
                 </Badge>
@@ -97,13 +94,11 @@ export default function AgentPage({ params }: AgentPageProps) {
                 <BookOpen className="h-5 w-5 text-primary" />
                 <span>Usage Instructions</span>
               </CardTitle>
-              <CardDescription>
-                Step-by-step guide to using {agent.name}
-              </CardDescription>
+              <CardDescription>Step-by-step guide to using {agent.name}</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="prose prose-sm dark:prose-invert max-w-none">
-                <ReactMarkdown>{agent.usageInstructions}</ReactMarkdown>
+              <div className="prose prose-sm dark:prose-invert max-w-none whitespace-pre-line">
+                {agent.usageInstructions}
               </div>
             </CardContent>
           </Card>
@@ -115,13 +110,11 @@ export default function AgentPage({ params }: AgentPageProps) {
                 <Settings className="h-5 w-5 text-primary" />
                 <span>Setup Guide</span>
               </CardTitle>
-              <CardDescription>
-                How to get started with {agent.name}
-              </CardDescription>
+              <CardDescription>How to get started with {agent.name}</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="prose prose-sm dark:prose-invert max-w-none">
-                <ReactMarkdown>{agent.setupGuide}</ReactMarkdown>
+              <div className="prose prose-sm dark:prose-invert max-w-none whitespace-pre-line">
+                {agent.setupGuide}
               </div>
             </CardContent>
           </Card>
@@ -134,13 +127,11 @@ export default function AgentPage({ params }: AgentPageProps) {
               <Lightbulb className="h-5 w-5 text-yellow-500" />
               <span>Grok's Recommendations</span>
             </CardTitle>
-            <CardDescription>
-              Expert insights and alternative suggestions
-            </CardDescription>
+            <CardDescription>Expert insights and alternative suggestions</CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="prose prose-sm dark:prose-invert max-w-none">
-              <ReactMarkdown>{agent.grokRecommendations}</ReactMarkdown>
+            <div className="prose prose-sm dark:prose-invert max-w-none whitespace-pre-line">
+              {agent.grokRecommendations}
             </div>
           </CardContent>
         </Card>
